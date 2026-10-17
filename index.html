@@ -122,7 +122,7 @@
             <form id="register-form" class="space-y-4 hidden">
                 <div>
                     <label class="block text-xs font-medium text-slate-600 mb-1">Nama Lengkap Mahasiswa *</label>
-                    <input type="text" id="reg-name" placeholder="misal: Budi Santoso" 
+                    <input type="text" id="reg-name" placeholder="misal: Alya Tri Buana" 
                         class="w-full px-4 py-2.5 rounded-xl border border-slate-200 text-xs focus:outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition">
                 </div>
                 <div>
@@ -406,7 +406,7 @@
             try {
                 const storedUsers = localStorage.getItem('edutrack_users');
                 users = storedUsers ? JSON.parse(storedUsers) : [
-                    { id: '1', name: 'Budi Santoso', email: 'budi@kampus.ac.id', password: 'password123' }
+                    { id: '1', name: 'Alya Tri Buana', email: 'alya@kampus.ac.id', password: 'alya123' }
                 ];
             } catch (e) {
                 console.error("Gagal membaca data akun:", e);
